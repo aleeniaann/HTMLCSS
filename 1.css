@@ -1,0 +1,34 @@
+/* cascading style sheet */
+
+body { background-color:white; }  /*  background of the page ig */
+/*  SELECTORS : element selector( tag name {}), class selector(.), id selector(#) */
+h1 {
+    color: indigo;   /* element selector */
+}
+
+.title {
+    color: blue;
+}                                    /* class overwrites tag 
+                                        and id overwrites class
+                                        more powerful = inline styling(style in html side.. on the particular tag*/
+
+/* headers<class<id<inline(style attribute) */
+#id-title {
+    color: lawngreen;
+}
+
+
+p {
+    color: indigo;   /* element selector */
+}
+.subtitle {        /* class selector */
+    color: chocolate; 
+}
+
+/* SPECIFICITY(class and id's)
+
+*/
+#contact-us {           /* id selector */
+    color: green;
+}
+/* 39:45 - psuedoselectors */
